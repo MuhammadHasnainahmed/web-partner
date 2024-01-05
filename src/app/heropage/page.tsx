@@ -16,7 +16,7 @@ const Hero = () => {
     <div className="flex flex-col md:flex-row md:justify-evenly justify-center items-center  bg-back-blue p-9 lg:h-screen ">
       <div className="lg:w-1/2  ">
         <div className="text-center md:text-left text-white">
-          <h1 className="font-bold tracking-wider text-4xl  lg:text-5xl">
+          <h1 className="font-bold tracking-wider text-3xl md:text-4xl  lg:text-5xl">
             Welcome to Your <br />
             <span className="text-regal-green animate-pulse"> WEB </span>
             Solution
@@ -35,15 +35,15 @@ const Hero = () => {
         </div>
 
         <div className="flex justify-center md:justify-start  text-2xl gap-4 py-4  cursor-pointer">
-          <div className=" border border-regal-green p-2 rounded-full text-white hover:text-regal-green  ">
+          <div className=" border border-regal-green hover:border-2 hover:border-white p-2 rounded-full text-white hover:text-regal-green transition-all ">
             <LuFacebook />
           </div>
 
-          <div className=" border border-regal-green p-2 rounded-full text-white hover:text-regal-green">
+          <div className=" border border-regal-green hover:border-2 hover:border-white p-2 rounded-full text-white hover:text-regal-green transition-all">
             <FiInstagram />
           </div>
 
-          <div className=" border border-regal-green p-2 rounded-full text-white hover:text-regal-green">
+          <div className=" border border-regal-green hover:border-2 hover:border-white p-2 rounded-full text-white hover:text-regal-green transition-all">
             <FiTwitter />
           </div>
         </div>

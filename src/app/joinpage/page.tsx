@@ -18,15 +18,15 @@ const Joinweb = () => {
            </div>
 
            <div className="flex  justify-center md:justify-start text-2xl gap-4 py-4  cursor-pointer">
-          <div className=" border border-regal-green p-2 rounded-full text-white hover:text-regal-green  ">
+          <div className=" border border-regal-green hover:border-2 hover:border-white p-2 rounded-full text-white hover:text-regal-green transition-all ">
             <LuFacebook />
           </div>
 
-          <div className=" border border-regal-green p-2 rounded-full text-white hover:text-regal-green">
+          <div className=" border border-regal-green hover:border-2 hover:border-white p-2 rounded-full text-white hover:text-regal-green transition-all">
             <FiInstagram />
           </div>
 
-          <div className=" border border-regal-green p-2 rounded-full text-white hover:text-regal-green">
+          <div className=" border border-regal-green hover:border-2 hover:border-white p-2 rounded-full text-white hover:text-regal-green transition-all">
             <FiTwitter />
           </div>
         </div>

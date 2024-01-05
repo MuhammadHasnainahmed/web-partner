@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Nav from "./components/nav";
-import Whatsapp from "./components/whatsapp";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,8 +23,7 @@ export default function RootLayout({
           <Nav />
           {children}
         </div>
-          {/* <Whatsapp /> */}
-      </body>
+            </body>
     </html>
   );
 }

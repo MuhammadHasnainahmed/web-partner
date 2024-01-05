@@ -11,7 +11,7 @@ const clientwork = () => {
 
   return (
     <div className="text-white bg-back-blue h-screen flex flex-col justify-center">
-      <div className=" text-6xl lg:text-8xl text-white font-extrabold flex justify-center py-28  ">
+      <div className=" text-5xl md:text-6xl lg:text-8xl text-white font-extrabold flex justify-center py-28  ">
         <h1 className="">
           <Typewriter
             options={{
@@ -19,7 +19,7 @@ const clientwork = () => {
               autoStart: true,
               loop: true,
               delay: 300,
-              cursor: "_",
+              cursor: "",
             }}
           />
         </h1>
